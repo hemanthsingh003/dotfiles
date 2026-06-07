@@ -1,0 +1,37 @@
+# Ghostty Configuration Guide
+
+## Config File Location
+
+| File | Purpose |
+|------|---------|
+| `~/.config/ghostty/config` | Ghostty terminal configuration |
+
+## Settings (~/.config/ghostty/config)
+
+### Theme
+- `theme = Catppuccin Mocha`
+
+### Font
+- `font-family = FiraCode Nerd Font`
+- `font-size = 12`
+
+### Cursor
+- `cursor-style = block`
+- `cursor-style-blink = false`
+- `shell-integration-features = no-cursor` — prevents Ghostty from overriding Vim's cursor settings
+
+### Window
+- `window-padding-x = 10`, `window-padding-y = 10`
+- `window-padding-balance = true`
+- `window-decoration = true`
+- `macos-titlebar-style = transparent`
+- `window-colorspace = "display-p3"`
+- `window-save-state = always`
+
+### Background
+- `background-opacity = 0.8`
+- `background-blur = 80`
+
+### Mouse
+- `mouse-scroll-multiplier = 2`
+- `copy-on-select = clipboard`
